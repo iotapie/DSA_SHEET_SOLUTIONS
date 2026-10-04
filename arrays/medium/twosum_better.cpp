@@ -9,7 +9,7 @@ class Solution{
             //select an element and find its complement
             complement = target-a[i];
             //if the complement is present then return true
-            if(mpp[temp]>0){//or use mpp.find(complement) != mpp.end()
+            if(mpp[complement]>0){//or use mpp.find(complement) != mpp.end()
                 return true;
             }
             //if absent add it to the map for subsequent checking
